@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  font-family: "Poppins", sans-serf;
+}
+html {
+  height: 100%;
+}
+
+body {
+  color: white;
+  background-image: linear-gradient(#027495, #01a9c1);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.options-button {
+  font-size: 12pt;
+  color: white;
+  transition: all 0.2s;
+}
+#edit-button:hover {
+  color: greenyellow;
+}
+#delete-button:hover {
+  color: red;
+}
+
+.menu-button {
+  border-radius: 3%;
+  padding: 6px;
+  color: black;
+  background-color: white;
+  font-size: 16pt;
+  transition: all 0.2s;
+}
+
+.menu-button:hover {
+  border-radius: 5%;
+  font-size: 15pt;
+}
